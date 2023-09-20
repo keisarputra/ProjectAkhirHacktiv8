@@ -44,12 +44,12 @@ body {
 #container {
     display: flex;
     padding: 20px;
-    margin: 0;
+    /* margin: 0;
     position: absolute;
     top: 50%;
     left: 50%;
     -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
+    transform: translateY(-50%); */
 }
 
 #intro {
@@ -82,7 +82,7 @@ body {
 }
 
 #profilePic img {
-    /* height: 100%;
+    height: 100%;
     width: 30%;
-    object-fit: */
+    object-fit:fill
 }
