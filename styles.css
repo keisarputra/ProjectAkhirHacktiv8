@@ -48,7 +48,7 @@ body {
 .home-container {
     position: relative;
     width: 100%;
-    height: 800px;
+    height: 100vh;
 }
 
 #home img {
@@ -60,7 +60,7 @@ body {
 .intro-text {
     position: absolute;
     bottom: 40%;
-    left: 20%;
+    left: 15%;
 }
 
 .intro-text h1 {
@@ -85,7 +85,7 @@ body {
     position: absolute;
     width: 300px;
     bottom: 25%;
-    right: 20%;
+    right: 15%;
 }
 
 #home .intro-pic img {
@@ -96,17 +96,30 @@ body {
 
 
 /* ABOUT */
+#about {
+    height: 100vh;
+}
+
 .about-container {
+    position: relative;
     margin: 5%;
-    padding: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    top: 40vh;
     text-align: center;
 }
 
 
 /* EXPERIENCE */
+#experience {
+    height: 100vh;
+    background:#bce5fa;
+}
+
 .exp-container {
     position: relative;
     margin: 5%;
+    top: 40vh;
     padding: 20px;
 }
 
@@ -125,30 +138,98 @@ body {
 }
 
 /* EDUCATION */
-.edu-container {
+#education {
+    height: 100vh;
+}
+
+#education .edu-container {
     position: relative;
-    margin-top: 10%;
-    margin-bottom: 10%;
+    top: 40vh;
+    height: 50%;
     margin-left: 5%;
     margin-right: 5%;
     padding: 20px;
-    background-color: #c4e6f7;
-    /* box-shadow: 3px 3px 5px 1px #4682A9; */
-    border-radius: 20px;
+    
 }
 
-.edu-container h1 {
+#education .edu-container h1 {
     text-align: center;
 }
 
-.edu-container li {
+#education .edu-container li {
     border: 1px;
     margin: 8px;
     font-weight: 500;
     text-align: center;
-    list-style: none;
+    list-style-position: inside;
 }
 
 /* SKILLS */
+#skills {
+    background-color: #4682A9;
+    height: 100vh;
+}
+
+.skills-container {
+    color: #F6F4EB;
+    position: relative;
+    
+    top: 30vh;
+}
+
+.skills-container h1 {
+    text-align: center;
+}
+
+.skills-container .ul1 {
+    float: left;
+    margin-left: 15%;
+}
+
+.skills-container .ul2 {
+    float: right;
+    margin-right: 15%;
+}
+
 /* INTEREST */
+#interest {
+    height: 100vh;
+}
+
+.interest-container{
+    position: relative;
+    top: 30vh;
+    padding: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.interest-container h1{
+    text-align: center;
+}
+
+.interest-container p{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.interest-container li{
+    text-align: center;
+    list-style-position: inside;
+}
+
 /* AWARDS */
+#awards {
+    height: 50vh;
+    background: #184d70;
+}
+.awards-container {
+    position: relative;
+    top: 40%;
+    text-align: center;
+    color: #F6F4EB;
+}
+
+.awards-container li{
+    list-style: none;
+}
